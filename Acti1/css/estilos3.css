@@ -1,0 +1,42 @@
+#contenido{
+    width: 79%;
+    display:block;
+}
+#cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+article{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px grey;
+    border-style: inset;
+    margin: 20px;
+}
+p{
+    text-align: justify;
+}
+
+aside{
+    float: right;
+    background-color: rgb(117, 224, 238);
+    width: 19%;
+    height: 100%;
+    box-shadow: 10px 10px 5px grey;
+
+}
+#foto{
+    width: 200px;
+}
+
+
+#titulo{
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+}
+.texto{
+   font-size: large;
+}
+.subtitulos{
+    text-shadow: 0 0 3px #19a59e, 0 0 5px #90fc5e;
+}
